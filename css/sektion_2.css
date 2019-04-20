@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* settings for window-width: narrow */
+@media only all and (max-width: 40rem) {
+	#page { display:none; }
+}
+/* settings for window-width: medium */
+@media only all and (min-width: 40rem) and (max-width: 60rem) {
+	#page { display:none; }
+}
+/* settings for window-width: wide */
+@media only all and (min-width: 60rem) {
+	#page {
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		font-size: 0.8em;
+		color: #fff;
+		/* changed */
+		position: relative;
+		width: 800px;
+		height: 720px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top:20px;
+	}
+	.container { display:none; }
+}
+
+
+#page {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	color: #fff;
+	/* changed */
+	position: relative;
+	width: 800px;
+	height: 720px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:20px;
+}
+
+a {
+	color:#fff;
+	text-decoration:none;
+}
+a:link {
+	color:#fff;
+	text-decoration:none;
+}
+a:visited {
+	color:#fff;
+}
+a:hover {
+	color:#fff;
+	text-decoration:underline;
+}
+a:active {
+	color:#fff;
+}
+a:focus {
+	color:#fff;
+}
+
+/* ### CSS für die Sektionen ### */
+
+#shift {
+	padding-left:10px;
+}
+.content {
+	background-image: url(../sektion/textfeld.gif);
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	vertical-align: text-top;
+	font-size: 1em;
+	color: #fff;
+}
+.content h1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.1em;
+	font-weight:bold;
+	color: #fff;
+}
+.footer {
+	background-image: url(../sektion/infos.gif);
+	text-align:center;
+	font-size:x-small;
+	color:#333;
+}
+.footer a {
+	color:#333;
+	text-decoration:none;
+}
+.footer a:link {
+	color:#333;
+	text-decoration:none;
+}
+.footer a:visited {
+	color:#333;
+}
+.footer a:hover {
+	color:#333;
+	text-decoration:underline;
+}
+.footer a:active {
+	color:#333;
+}
+.footer a:focus {
+	color:#333;
+}
